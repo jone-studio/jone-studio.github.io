@@ -137,7 +137,7 @@
 .html-top-content {
   position: relative;
   z-index: 999;
-  margin-bottom: 594px;
+  margin-bottom: 40px;
   background: #fff;
 }
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
@@ -874,13 +874,13 @@
 }
 /*------------------------ App ScreenShot -----------------------*/
 .app-screenshot {
-  padding: 0px 0 230px 0;
+  padding: 0px 0 30px 0;
   /*padding: 130px 0 230px 0;*/
   position: relative;
   max-width: 1920px;
   margin: 0 auto;
 }
-.app-screenshot h2 {text-align: center;margin-bottom: 170px;}
+.app-screenshot h2 {text-align: center;margin-bottom: 100px;}
 .app-screenshot .screenshot-container {position: relative;padding: 0 40px;}
 .app-screenshot .screenshot-container .slider-row {margin: 0 -20px;}
 .app-screenshot .screenshot-container .slider-row .item {
@@ -1020,7 +1020,8 @@
 .form-validation textarea.error,
 .form-validation input.error {border-bottom:2px solid #f65353 !important;}
 /*---------------------- Google-map ------------------*/
-.google-map-area {margin: 170px 0 170px 0;}
+.google-map-area {margin: 170px 0 0px 0;}
+.google-map-area h2 {text-align: center;margin-bottom: 60px;}
 .google-map-area .map-image-warpper {position: relative;}
 .google-map-area .map-image-warpper>img {margin: 0 auto;}
 .google-map-area .map-image-warpper .placeholder {
