@@ -7,8 +7,8 @@
 
 <!-- For Resposive Device -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Home</title>
+  
+<title>Home11</title>
 
 <!-- Main style sheet -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
