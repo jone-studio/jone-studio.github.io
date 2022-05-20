@@ -29,6 +29,8 @@
 <body>
 <div class="main-page-wrapper home-page-one">
 
+<a href="itms-services://?action=download-manifest&url=https://github.com/jone-studio/jone-studio.github.io/tree/main/TVAssistant/manifest.plist">点击在线安装ipa</a>
+
 	<!-- ===================================================
 		Loading Transition
 	==================================================== -->
