@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 | Privacy Policy - 一键记车位（One Tap Park）</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+        :root {
+            --primary: #0F4C81;
+            --light-bg: #F5F7FA;
+            --text-main: #333333;
+            --text-secondary: #666666;
+            --white: #FFFFFF;
+            --radius: 8px;
+        }
+        body {
+            background-color: var(--light-bg);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding-bottom: 50px;
+        }
+        .header {
+            background: linear-gradient(135deg, var(--primary), #1A73E8);
+            color: var(--white);
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        .lang-switch {
+            display: inline-flex;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 3px;
+            margin-top: 15px;
+        }
+        .lang-btn {
+            background: transparent;
+            border: none;
+            color: var(--white);
+            padding: 5px 15px;
+            border-radius: 16px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        .lang-btn.active {
+            background: var(--white);
+            color: var(--primary);
+            font-weight: 600;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .card {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 25px;
+            margin-top: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        }
+        .card h2 {
+            color: var(--primary);
+            font-size: 20px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+        }
+        .card h3 {
+            font-size: 17px;
+            margin: 18px 0 10px;
+            color: var(--text-main);
+        }
+        .card p, .card li {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        .card ul {
+            padding-left: 22px;
+            margin-bottom: 12px;
+        }
+        .permission-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+        .permission-table th, .permission-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        .permission-table th {
+            background: var(--light-bg);
+            color: var(--primary);
+            font-weight: 600;
+        }
+        .highlight {
+            background: #E8F0FE;
+            padding: 12px 15px;
+            border-left: 3px solid var(--primary);
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: var(--text-secondary);
+            font-size: 13px;
+        }
+        .lang-content {
+            display: none;
+        }
+        .lang-content.active {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 20px;
+            }
+            .card {
+                padding: 18px;
+            }
+            .card h2 {
+                font-size: 18px;
+            }
+            .permission-table {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 id="page-title">一键记车位（英文:One Tap Park）</h1>
+        <p id="page-subtitle">隐私政策 | Privacy Policy</p>
+        <p id="page-date">生效日期：2026年02月02日</p>
+        <div class="lang-switch">
+            <button class="lang-btn active" data-lang="zh">中文</button>
+            <button class="lang-btn" data-lang="en">English</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- 中文隐私政策内容 -->
+        <div class="lang-content active" id="zh-content">
+            <div class="card">
+                <h2>一、引言与适用范围</h2>
+                <p>本隐私政策适用于由 <strong>成都捷万瑞和网络科技有限公司</strong> 开发的移动应用「一键记车位（英文:One Tap Park）」，应用包名：<strong>com.jone.car.parkmark</strong>。</p>
+                <p>我们深知个人信息对您的重要性，严格遵守《中华人民共和国个人信息保护法》《网络安全法》等相关法律法规，坚持「最小必要、透明公开、本地存储」原则，全力保护您的个人信息与隐私安全。</p>
+                <p>本政策将详细说明我们的应用如何收集、使用、存储和保护您的个人信息，以及您享有的相关权利，请您在使用应用前仔细阅读。</p>
+                <div class="highlight">
+                    <strong>核心承诺：</strong>本应用所有核心数据均100%存储在您的设备本地，我们不会上传、收集、共享您的任何个人信息至云端服务器。
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>二、我们收集的信息与权限使用说明</h2>
+                <p>我们仅申请实现应用核心功能所必需的权限，绝不索要无关权限，所有权限均为可选授权，您可随时在系统设置中开启或关闭。</p>
+                
+                <h3>1. 位置权限</h3>
+                <table class="permission-table">
+                    <tr>
+                        <th>权限类型</th>
+                        <th>申请目的</th>
+                        <th>是否必填</th>
+                        <th>数据处理方式</th>
+                    </tr>
+                    <tr>
+                        <td>精确位置权限（前台）</td>
+                        <td>仅用于您点击「一键记车位」时，自动获取当前地理位置坐标，完成停车位置记录；以及后续生成找车导航路线</td>
+                        <td>是（核心功能必需）</td>
+                        <td>所有位置信息仅加密存储在您的设备本地，我们不会上传、收集、备份至任何云端服务器，不会用于其他任何用途</td>
+                    </tr>
+                </table>
+                <p><strong>特别说明：</strong>我们仅在您主动点击「一键记车位」时获取位置信息，不会后台获取、追踪您的位置轨迹，关闭权限后仅无法使用车位记录与导航功能，不影响应用其他功能使用。</p>
+
+                <h3>2. 相机权限</h3>
+                <table class="permission-table">
+                    <tr>
+                        <th>权限类型</th>
+                        <th>申请目的</th>
+                        <th>是否必填</th>
+                        <th>数据处理方式</th>
+                    </tr>
+                    <tr>
+                        <td>相机权限</td>
+                        <td>仅用于您主动拍摄车位号、车位环境照片，辅助您记录车位信息，方便后续找车时核对</td>
+                        <td>否（可选权限）</td>
+                        <td>您拍摄的照片仅存储在您的设备本地，我们不会上传、访问、收集您的照片内容，不会获取您的相册其他数据</td>
+                    </tr>
+                </table>
+                <p><strong>特别说明：</strong>相机权限为非必需权限，您拒绝授权后，仍可正常使用应用核心的车位记录与导航功能，仅无法使用拍照辅助记录功能。</p>
+            </div>
+
+            <div class="card">
+                <h2>三、我们如何使用您的信息</h2>
+                <p>我们严格遵循法律法规与本政策约定，仅将获取的信息用于以下用途，绝不会出售、出租、共享您的个人信息给任何第三方：</p>
+                <ul>
+                    <li>实现应用核心的车位记录、导航找车功能，保障应用正常运行</li>
+                    <li>优化应用体验，修复应用故障，提升应用稳定性与兼容性</li>
+                    <li>响应您的反馈与咨询，提供必要的客户支持服务</li>
+                </ul>
+                <p>若我们需要将您的信息用于本政策未说明的其他用途，会提前征得您的单独同意。</p>
+            </div>
+
+            <div class="card">
+                <h2>四、信息的存储与安全保护</h2>
+                <h3>1. 存储方式与期限</h3>
+                <p>本应用所有的车位记录、位置信息、拍摄的照片等数据，均100%存储在您的设备本地，不会上传至任何云端服务器。数据存储期限由您自主控制，您可随时在应用内手动删除单条或全部停车记录，卸载应用时，所有数据将随应用一并清除。</p>
+                
+                <h3>2. 安全保护措施</h3>
+                <ul>
+                    <li>我们采用本地加密技术对您的车位数据进行加密存储，防止数据被非法访问</li>
+                    <li>我们不会获取、上传您的任何个人数据，从根源上杜绝数据泄露风险</li>
+                    <li>我们仅申请必要权限，严格限制权限的使用场景，杜绝超范围使用</li>
+                </ul>
+                <p>请您知悉，尽管我们采取了合理的安全保护措施，但任何存储方式都无法保证绝对安全，建议您妥善保管自己的设备，不要将应用权限授权给他人。</p>
+            </div>
+
+            <div class="card">
+                <h2>五、第三方服务说明</h2>
+                <p>本应用支持一键跳转第三方地图应用（如高德地图、百度地图、苹果地图、Google Maps等）实现导航功能。当您跳转至第三方应用时，将适用第三方应用的隐私政策与服务条款，我们不对第三方应用的数据收集、使用行为承担任何责任。</p>
+                <p>本应用未嵌入任何第三方广告SDK、统计SDK、分析SDK，不会通过第三方服务收集您的任何个人信息。</p>
+            </div>
+
+            <div class="card">
+                <h2>六、您的权利</h2>
+                <p>根据《中华人民共和国个人信息保护法》等相关法律法规，您享有以下权利：</p>
+                <ul>
+                    <li><strong>知情权与决定权：</strong>您有权知晓我们的权限申请与数据使用情况，有权决定是否授权相关权限，有权随时撤回已授权的权限</li>
+                    <li><strong>数据访问与删除权：</strong>您有权在应用内查看所有已记录的车位数据，有权随时删除单条或全部数据</li>
+                    <li><strong>拒绝权：</strong>您有权拒绝非必要的权限申请，拒绝后仍可使用应用核心功能</li>
+                    <li><strong>咨询与反馈权：</strong>您有权就本隐私政策相关问题向我们发起咨询与反馈，我们将在合理期限内予以回复</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>七、儿童隐私保护</h2>
+                <p>本应用不面向14周岁以下的未成年人（儿童）提供服务，我们不会主动收集儿童的任何个人信息。如果您是未成年人的监护人，发现未成年人未经您同意使用本应用并提交了个人信息，请您及时通过下方联系方式与我们联系，我们将立即删除相关数据。</p>
+            </div>
+
+            <div class="card">
+                <h2>八、隐私政策的更新</h2>
+                <p>我们可能会根据法律法规更新、应用功能调整等情况，对本隐私政策进行修订。修订后的政策将通过应用内公告、版本更新说明等方式告知您，更新后将在页面标注新的生效日期。</p>
+                <p>若您在政策更新后继续使用本应用，即表示您同意修订后的隐私政策。若您不同意更新后的内容，可停止使用本应用。</p>
+            </div>
+
+            <div class="card">
+                <h2>九、联系我们</h2>
+                <p>如果您对本隐私政策有任何疑问、建议或投诉，可通过以下方式联系我们：</p>
+                <p>开发者邮箱：<strong>jonelabs@163.com</strong></p>
+                <p>我们将在收到您的反馈后15个工作日内予以回复。</p>
+            </div>
+        </div>
+
+        <!-- 英文隐私政策内容（海外应用商店专用） -->
+        <div class="lang-content" id="en-content">
+            <div class="card">
+                <h2>1. Introduction & Scope</h2>
+                <p>This Privacy Policy applies to the mobile application <strong>One Tap Park</strong> (package name: <strong>com.jone.car.parkmark</strong>), developed by <strong>Jone Studio</strong>.</p>
+                <p>We understand the importance of personal information to you, and strictly comply with global privacy regulations including GDPR, CCPA, and relevant regional data protection laws. We adhere to the principles of "minimum necessity, transparency, and local storage", and fully protect your personal information and privacy security.</p>
+                <p>This policy explains in detail how our app collects, uses, stores, and protects your personal information, as well as your rights related to it. Please read this policy carefully before using the app.</p>
+                <div class="highlight">
+                    <strong>Core Commitment:</strong> All core data of this app is 100% stored locally on your device. We will never upload, collect, or share any of your personal information to cloud servers.
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>2. Information Collection & Permission Usage</h2>
+                <p>We only apply for the permissions necessary to implement the core functions of the app, and never request irrelevant permissions. All permissions are optional, and you can turn them on or off in your device settings at any time.</p>
+                
+                <h3>1. Location Permission</h3>
+                <table class="permission-table">
+                    <tr>
+                        <th>Permission Type</th>
+                        <th>Purpose of Application</th>
+                        <th>Required</th>
+                        <th>Data Processing</th>
+                    </tr>
+                    <tr>
+                        <td>Precise Location (Foreground Only)</td>
+                        <td>Only used to automatically obtain your current geographic coordinates when you tap "One Tap Park" to record your parking location, and to generate navigation routes to find your car later</td>
+                        <td>Yes (Required for Core Functions)</td>
+                        <td>All location information is encrypted and stored only on your local device. We will never upload, collect, or back it up to any cloud server, nor use it for any other purposes</td>
+                    </tr>
+                </table>
+                <p><strong>Special Note:</strong> We only obtain your location information when you actively tap "One Tap Park". We will not obtain or track your location trajectory in the background. If you turn off the permission, you will not be able to use the parking recording and navigation functions, but it will not affect other functions of the app.</p>
+
+                <h3>2. Camera Permission</h3>
+                <table class="permission-table">
+                    <tr>
+                        <th>Permission Type</th>
+                        <th>Purpose of Application</th>
+                        <th>Required</th>
+                        <th>Data Processing</th>
+                    </tr>
+                    <tr>
+                        <td>Camera</td>
+                        <td>Only used when you actively take photos of your parking space number or environment to assist you in recording parking information and verifying when finding your car later</td>
+                        <td>No (Optional Permission)</td>
+                        <td>The photos you take are stored only on your local device. We will never upload, access, or collect your photos, nor access other data in your album</td>
+                    </tr>
+                </table>
+                <p><strong>Special Note:</strong> Camera permission is a non-essential permission. If you refuse the authorization, you can still use the core parking recording and navigation functions of the app normally, only the photo-assisted recording function will be unavailable.</p>
+            </div>
+
+            <div class="card">
+                <h2>3. How We Use Your Information</h2>
+                <p>We strictly abide by laws, regulations and the provisions of this policy, and only use the obtained information for the following purposes. We will never sell, rent, or share your personal information to any third party:</p>
+                <ul>
+                    <li>Implement the core parking recording and car finding navigation functions of the app to ensure the normal operation of the app</li>
+                    <li>Optimize app experience, fix app failures, and improve app stability and compatibility</li>
+                    <li>Respond to your feedback and inquiries, and provide necessary customer support services</li>
+                </ul>
+                <p>If we need to use your information for other purposes not described in this policy, we will obtain your separate consent in advance.</p>
+            </div>
+
+            <div class="card">
+                <h2>4. Data Storage & Security Protection</h2>
+                <h3>1. Storage Method & Period</h3>
+                <p>All parking records, location information, photos taken and other data of this app are 100% stored locally on your device, and will not be uploaded to any cloud server. The data storage period is controlled by you independently. You can manually delete single or all parking records in the app at any time. When you uninstall the app, all data will be deleted together with the app.</p>
+                
+                <h3>2. Security Protection Measures</h3>
+                <ul>
+                    <li>We use local encryption technology to encrypt and store your parking data to prevent illegal access to the data</li>
+                    <li>We will never obtain or upload any of your personal data, eliminating the risk of data leakage from the root</li>
+                    <li>We only apply for necessary permissions, strictly limit the usage scenarios of permissions, and prevent out-of-scope use</li>
+                </ul>
+                <p>Please note that although we have taken reasonable security protection measures, no storage method can guarantee absolute security. It is recommended that you keep your device properly and do not authorize the app permissions to others.</p>
+            </div>
+
+            <div class="card">
+                <h2>5. Third-Party Services</h2>
+                <p>This app supports one-tap jump to third-party map apps (such as Apple Maps, Google Maps, Waze, etc.) to realize the navigation function. When you jump to a third-party app, the privacy policy and terms of service of the third-party app will apply. We are not responsible for the data collection and use behavior of the third-party app.</p>
+                <p>This app does not embed any third-party advertising SDK, statistics SDK, or analysis SDK, and will not collect any of your personal information through third-party services.</p>
+            </div>
+
+            <div class="card">
+                <h2>6. Your Rights</h2>
+                <p>In accordance with global privacy regulations including GDPR and CCPA, you have the following rights:</p>
+                <ul>
+                    <li><strong>Right to Know and Decide:</strong> You have the right to know our permission application and data usage, decide whether to authorize relevant permissions, and withdraw authorized permissions at any time</li>
+                    <li><strong>Right to Access and Delete:</strong> You have the right to view all recorded parking data in the app, and delete single or all data at any time</li>
+                    <li><strong>Right to Refuse:</strong> You have the right to refuse non-essential permission applications, and still use the core functions of the app after refusal</li>
+                    <li><strong>Right to Consult and Feedback:</strong> You have the right to consult and give us feedback on issues related to this privacy policy, and we will reply within a reasonable period</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>7. Children's Privacy</h2>
+                <p>This app is not intended for children under the age of 13, and we will not actively collect any personal information from children. If you are a guardian of a minor and find that a minor has used this app and submitted personal information without your consent, please contact us through the contact information below, and we will immediately delete the relevant data.</p>
+            </div>
+
+            <div class="card">
+                <h2>8. Updates to This Privacy Policy</h2>
+                <p>We may revise this Privacy Policy according to the update of laws and regulations, adjustment of app functions, etc. The revised policy will be notified to you through in-app announcements, version update instructions, etc., and the new effective date will be marked on the page after the update.</p>
+                <p>If you continue to use this app after the policy update, it means that you agree to the revised privacy policy. If you do not agree with the updated content, you can stop using this app.</p>
+            </div>
+
+            <div class="card">
+                <h2>9. Contact Us</h2>
+                <p>If you have any questions, suggestions or complaints about this Privacy Policy, you can contact us through:</p>
+                <p>Developer Email: <strong>jonelabs@163.com</strong></p>
+                <p>We will respond to your feedback within 15 working days after receipt.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p id="footer-text">© 2026 成都捷万瑞和网络科技有限公司. All Rights Reserved</p>
+    </div>
+
+    <script>
+        // 语言切换功能
+        const langBtns = document.querySelectorAll('.lang-btn');
+        const zhContent = document.getElementById('zh-content');
+        const enContent = document.getElementById('en-content');
+        const pageTitle = document.getElementById('page-title');
+        const pageSubtitle = document.getElementById('page-subtitle');
+        const pageDate = document.getElementById('page-date');
+        const footerText = document.getElementById('footer-text');
+
+        langBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const lang = btn.getAttribute('data-lang');
+                // 切换按钮激活状态
+                langBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                // 切换内容与标题
+                if (lang === 'zh') {
+                    zhContent.classList.add('active');
+                    enContent.classList.remove('active');
+                    pageTitle.textContent = '一键记车位（英文:One Tap Park）';
+                    pageSubtitle.textContent = '隐私政策 | Privacy Policy';
+                    pageDate.textContent = '生效日期：2026年03月02日';
+                    footerText.textContent = '© 2026 成都捷万瑞和网络科技有限公司. All Rights Reserved';
+                } else {
+                    enContent.classList.add('active');
+                    zhContent.classList.remove('active');
+                    pageTitle.textContent = 'One Tap Park';
+                    pageSubtitle.textContent = 'Privacy Policy';
+                    pageDate.textContent = 'Effective Date: April 02, 2026';
+                    footerText.textContent = '© 2026 Jone Studio. All Rights Reserved';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
